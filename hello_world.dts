@@ -1,0 +1,12 @@
+/dts-v1/;
+/plugin/;
+&leds {
+	test {
+		compatible = "hello,teuta";
+
+		test-gpiod = <&gpio 16 >,
+			     <&gpio 17 >,
+			     <&gpio 18 >;
+
+	};
+};
