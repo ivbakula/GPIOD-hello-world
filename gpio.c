@@ -18,7 +18,7 @@ static int gpio_remove(struct platform_device *pdev)
 }
 
 static const struct of_device_id gpio_ids[] = {
-	{ .compatible = "gpio-fan"},
+	{ .compatible = "gpio-skel"},
 	{ }
 };
 MODULE_DEVICE_TABLE(of, gpio_ids);
