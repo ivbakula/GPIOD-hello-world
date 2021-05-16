@@ -2,7 +2,6 @@
 #include <linux/gpio/driver.h>
 #include <linux/module.h>
 #include <linux/platform_device.h>
-#include <soc/bcm2835/raspberrypi-firmware.h>
 
 #define MODULE_NAME "hello"
 static int gpio_probe(struct platform_device *pdev)

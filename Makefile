@@ -4,7 +4,7 @@ ifneq ($(KERNELRELEASE),)
 else
 	KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 	PWD := $(shell pwd)
-	OVERLAY=hello_world
+	OVERLAY=skel
 	OVERLAY_SRC=$(OVERLAY).dts
 	OVERLAY_BIN=$(OVERLAY).dtbo
 default:
